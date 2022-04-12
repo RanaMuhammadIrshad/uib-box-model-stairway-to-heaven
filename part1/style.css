@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 45vh;
+  margin: 2rem auto;
+  width: 50%;
+  border: 5px solid red;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+
+.right {
+  margin: 0 300px;
+}
+
+.toright {
+  margin: 0 200px;
+  border: 5px solid black;
+}
+
+.toleft {
+  margin: 0 100px;
+}
+
+.left {
+  margin: 0;
+  border: 5px solid black;
+}

@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div {
+
+    height: 100px;
+    width: 100px;
+}
+
+.right {
+    margin: 0px;
+    border: 5px solid rgb(240, 72, 72);
+    background-color: yellow;
+   
+}
+
+.toright {
+    margin: 0 100px;
+    border: 5px solid rgb(240, 72, 72);
+    background-color: yellow;
+}
+
+.toleft {
+    margin: 0 200px;
+    border: 5px solid rgb(240, 72, 72);
+    background-color: yellow;
+}
+
+.left {
+   margin: 0 300px;
+   border: 5px solid rgb(240, 72, 72);
+   background-color: yellow;
+}
+
+.col1{
+    height: 300px;
+    margin-top: -300px;
+    background-color: red;
+}
+.col2 {
+    height: 200px;
+    margin: -200px 100px 100px 100px;
+    background-color: red;
+}
+.col3 {
+    height: 100px;
+    margin: -200px 200px 200px 200px;
+    background-color: red;
+} 
